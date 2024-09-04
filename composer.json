@@ -34,7 +34,7 @@
     },
     "extra": {
         "expose": [
-            "client/dist"
+            "dist"
         ]
     },
     "minimum-stability": "stable", 
