@@ -22,12 +22,16 @@ composer require seppzzz/html-editor-scroll
 Alternatively, you can download the `.zip file` from GitHub, extract it, rename the extracted folder to `html-editor-scroll`, 
 and copy it to your `vendor/seppzzz/` directory.
 
-After installation, run the following command to rebuild your SilverStripe project:
+After installation, run the following commands to rebuild your SilverStripe project and expose the necessary assets:
 
 
 ```sh
 
-dev/build
+# Rebuild the database and regenerate the manifest
+vendor/bin/sake dev/build
+
+# Expose the module's public assets
+vendor/bin/vendor-expose
 
 ```
 
