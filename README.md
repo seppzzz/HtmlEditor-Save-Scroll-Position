@@ -1,6 +1,6 @@
 # SilverStripe HTMLEditor Scroll Plugin
 
- Provides a Silverstripe TinyMCE plugin that records the last scrolled or edited position in the HTML editor field. This is especially useful for editing long content, preventing the need to search and scroll to your previous position after saving.
+ Provides a Silverstripe TinyMCE plugin that records the last scrolled or edited position in the HTML editor field. This is especially useful for editing long content, preventing the need to search and scroll to your previous position after saving. Also adds a Scroll-To-Top Button to TinyMce.
  
  
 ## Requirements

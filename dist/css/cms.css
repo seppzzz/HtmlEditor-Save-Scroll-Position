@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*.mce-scroll-top-class button, .mce-scroll-top-class button i {
+	padding-bottom: 6px!important;
+}*/
+
+.mce-scroll-top-class button i:before {
+	content: "\21A5"!important;
+	font-size: 28px!important;
+	font-weight: bold;
+	position: relative;
+	top: -4px; /* Moves the icon up  */
+}
+
+

@@ -30,8 +30,8 @@
 
 			// Save scroll position when content changes, or the editor loses focus
 			function saveScrollPosition(){
-				var iframeWindow=ed.getWin();
-				var scrollPosition=iframeWindow.scrollY;
+				var iframeWindow = ed.getWin();
+				var scrollPosition = iframeWindow.scrollY;
 				sessionStorage.setItem(uniqueKey,scrollPosition);
 				//console.log('Saved scroll position: '+scrollPosition+' with key: '+uniqueKey);
 			}
@@ -40,6 +40,32 @@
 			ed.on('blur',saveScrollPosition);
 			ed.on('PostProcess',saveScrollPosition);
 			ed.on('BeforeUnload',saveScrollPosition);
+			
+			ed.addButton('scrollposition', {
+				'title': 'Scroll Top',
+				'classes': 'scroll-top-class',
+				'onclick': function (e) {
+					// Scroll to the top with a smooth animation
+					var iframeWindow = ed.getWin();
+					var startPosition = iframeWindow.scrollY;
+					var duration = 600; // Duration in ms (e.g., 600ms)
+					var startTime = null;
+
+					function scrollStep(timestamp) {
+						if (!startTime) startTime = timestamp;
+						var progress = timestamp - startTime;
+						var percentage = Math.min(progress / duration, 1);
+						iframeWindow.scrollTo(0, startPosition * (1 - percentage));
+
+						if (progress < duration) {
+							window.requestAnimationFrame(scrollStep);
+						}
+					}
+
+					window.requestAnimationFrame(scrollStep);
+				}
+			});
+
 		},
 
 		getInfo:function(){

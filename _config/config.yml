@@ -6,3 +6,8 @@ name: tinymcescrolltoposition
 SilverStripe\Forms\HTMLEditor\HTMLEditorField:
   extensions:
     - Seppzzz\Scroll\HTMLEditorFieldExtension
+
+
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - 'seppzzz/html-editor-scroll: dist/css/cms.css'
