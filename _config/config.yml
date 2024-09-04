@@ -1,0 +1,8 @@
+---
+name: tinymcescrolltoposition
+---
+
+
+SilverStripe\Forms\HTMLEditor\HTMLEditorField:
+  extensions:
+    - Seppzzz\Scroll\HTMLEditorFieldExtension
