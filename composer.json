@@ -1,7 +1,7 @@
 
 {
 	"name": "seppzzz/html-editor-scroll",
-    "description": "A Tinymce plugin for HtmlEditorField to scroll to last position before saved.",
+    "description": "Provides a Silverstripe TinyMCE plugin that records the last scrolled or edited position in the HTML editor field. This is especially useful for editing long content, preventing the need to search and scroll to your previous position after saving.",
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
