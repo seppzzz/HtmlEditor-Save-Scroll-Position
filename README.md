@@ -1,6 +1,6 @@
 # SilverStripe HTMLEditor Scroll Plugin
 
-This Silverstripe TinyMCE plugin records the last scrolled or edited position within the HTML editor field, ensuring that when editing long content, you are automatically returned to the same position after saving. Without this plugin, the editor would normally return to the top of the content after each save. The plugin also adds a "Scroll-To-Top" button to the TinyMCE toolbar, allowing for quick navigation to the top of the content.
+This Silverstripe TinyMCE plugin records the last scrolled or edited position within the HTML editor field, ensuring that when editing long content, you are automatically returned to your previous position. This prevents the need to manually search and scroll back after saving. Without this plugin, the editor typically resets to the top of the content after each save. Additionally, the plugin adds a "Scroll-To-Top" button to the TinyMCE toolbar for quick navigation to the top of the content.
  
  
 ## Requirements
