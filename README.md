@@ -18,7 +18,11 @@ You can install the module via Composer:
 
 ```sh
 
+<<<<<<< HEAD
 composer require seppzzz/html-editor-scroll:^2.0
+=======
+composer require seppzzz/html-editor-scroll:^1.0
+>>>>>>> main
 
 ```
 
