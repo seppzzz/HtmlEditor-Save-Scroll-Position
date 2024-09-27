@@ -1,14 +1,15 @@
 # SilverStripe HTMLEditor Scroll Plugin
 
-This Silverstripe TinyMCE plugin records the last scrolled or edited position within the HTML editor field, ensuring that when editing long content, you are automatically returned to your previous position. This prevents the need to manually search and scroll back after saving. Without this plugin, the editor typically resets to the top of the content after each save. Additionally, the plugin adds a "Scroll-To-Top" button to the TinyMCE toolbar for quick navigation to the top of the content.
+This Silverstripe TinyMCE plugin records the last scrolled or edited position within the HTML editor field, ensuring that when editing long content, you are automatically returned to your previous position. This prevents the need to manually search and scroll back after saving. Without this plugin, the editor typically resets to the top of the content after each save. Additionally, the plugin adds a "Scroll-To-Top" button to the TinyMCE toolbar for quick navigation to the top of the content. 
  
  
 ## Requirements
 
-SilverStripe 4  (tested with 4.13)
-PHP 7.2 or higher
 
-For Silverstripe 5 use the silverstripe 5 branch
+SilverStripe 5 (tested with 5.2)
+PHP 8.2 or higher
+
+For Silverstripe 4.x use the main-branch.
 
 
 ## Installation
@@ -17,7 +18,11 @@ You can install the module via Composer:
 
 ```sh
 
+<<<<<<< HEAD
+composer require seppzzz/html-editor-scroll:^2.0
+=======
 composer require seppzzz/html-editor-scroll:^1.0
+>>>>>>> main
 
 ```
 
