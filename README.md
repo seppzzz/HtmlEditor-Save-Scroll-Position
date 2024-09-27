@@ -5,6 +5,7 @@ This Silverstripe TinyMCE plugin records the last scrolled or edited position wi
  
 ## Requirements
 
+
 SilverStripe 5 (tested with 5.2)
 PHP 8.2 or higher
 
