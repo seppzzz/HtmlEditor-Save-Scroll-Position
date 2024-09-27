@@ -52,10 +52,12 @@ editor.ui.registry.addButton('scrollposition', {
 		editor.on('blur', saveScrollPosition);
 		editor.on('PostProcess', saveScrollPosition);
 		editor.on('BeforeUnload', saveScrollPosition);
+		
+		editor.ui.registry.addIcon('arrowUp', '<svg style="width: 1em" id="iconDemo-arrow-up" viewBox="0 0 1024 1024"><title>arrow-up</title><path ng-repeat="path in glyph.paths" class="path0" mi-d="M512 32l-480 480h288v512h384v-512h288z" opacity="0.8" d="M512 32l-480 480h288v512h384v-512h288z" stroke="inherit"></path></svg>');
 
 		// Add a button to scroll to the top
 		editor.ui.registry.addButton('scrollposition', {
-			icon: 'fullscreen', // Use an icon, you can customize this // icon: ' fa fa-camera-retro', // notice a space before the 'fa'
+			icon: 'arrowUp', // Use an icon, you can customize this // icon: ' fa fa-camera-retro', // notice a space before the 'fa'
 			tooltip: 'Scroll Top',
 			onAction: function () {
 				// Scroll to the top with a smooth animation
