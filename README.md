@@ -18,7 +18,7 @@ You can install the module via Composer:
 
 ```sh
 
-composer require seppzzz/html-editor-scroll
+composer require seppzzz/html-editor-scroll:^2.0
 
 ```
 
