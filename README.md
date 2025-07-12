@@ -5,7 +5,7 @@
  
 ## Requirements
 
-SilverStripe 4 ad 5 and 6
+SilverStripe 4 / 5 / 6
 
 
 
