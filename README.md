@@ -5,17 +5,22 @@
  
 ## Requirements
 
-SilverStripe 4 or 5 (tested with 4.13)
-PHP 7.2 or higher
+SilverStripe 4 ad 5 and 6
+
 
 
 ## Installation
 
-You can install the module via Composer:
 
 ```sh
 
-composer require seppzzz/html-editor-scroll
+You can install the module via Composer by specifying the appropriate branch alias or version constraint for your SilverStripe version:
+
+| SilverStripe Version | Composer Command                                         |
+|---------------------|----------------------------------------------------------|
+| ^6.0                | `composer require seppzzz/html-editor-scroll`            |
+| ^5.0                | `composer require seppzzz/html-editor-scroll:dev-silverstripe_5`  |
+| ^4.0                | `composer require seppzzz/html-editor-scroll:dev-silverstripe_4`  |
 
 ```
 
