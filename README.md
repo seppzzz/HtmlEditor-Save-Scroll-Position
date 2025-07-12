@@ -58,3 +58,4 @@ TinyMCEConfig::get('mycustomconfig')->enablePlugins([
 ]);
 
 ```
+
