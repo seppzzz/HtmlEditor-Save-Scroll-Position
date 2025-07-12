@@ -11,16 +11,17 @@ SilverStripe 4 / 5 / 6
 
 ## Installation
 
+You can install the module via Composer by specifying the appropriate branch alias or version constraint for your SilverStripe version:
+
+| SilverStripe Version | Composer Command                                                     |
+|---------------------|-----------------------------------------------------------------------|
+| ^6.0                | `composer require seppzzz/html-editor-scroll`                         |
+| ^5.0                | `composer require seppzzz/html-editor-scroll:dev-silverstripe_5`      |
+| ^4.0                | `composer require seppzzz/html-editor-scroll:dev-silverstripe_4`      |
+
 
 ```sh
 
-You can install the module via Composer by specifying the appropriate branch alias or version constraint for your SilverStripe version:
-
-| SilverStripe Version | Composer Command                                         |
-|---------------------|----------------------------------------------------------|
-| ^6.0                | `composer require seppzzz/html-editor-scroll`            |
-| ^5.0                | `composer require seppzzz/html-editor-scroll:dev-silverstripe_5`  |
-| ^4.0                | `composer require seppzzz/html-editor-scroll:dev-silverstripe_4`  |
 
 ```
 
